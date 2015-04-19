@@ -2,7 +2,7 @@ def get_letter_grade (raw_score)
 
 	# Define cutoff for each grade
 
-	cutoffs = { A: 94, B: 84, C: 75, D: 70}
+	cutoffs = { A: 90, B: 84, C: 74, D: 70}
 
 	case
 	when raw_score >= cutoffs[:A]	return 'A'
